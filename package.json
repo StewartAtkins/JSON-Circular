@@ -1,0 +1,20 @@
+{
+  "name": "JSON-Circular",
+  "version": "0.0.1",
+  "description": "Simple library to allow for serialization and deserialization (JSON or otherwise) of JS objects containing circular references",
+  "main": "json-circular.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StewartAtkins/JSON-Circular.git"
+  },
+  "keywords": [
+    "JSON",
+    "serialization",
+    "circular",
+    "deserialization"
+  ],
+  "author": "Stewart Atkins",
+  "bugs": {
+    "url": "https://github.com/StewartAtkins/JSON-Circular/issues"
+  }
+}
