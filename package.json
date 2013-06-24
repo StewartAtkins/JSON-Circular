@@ -1,5 +1,5 @@
 {
-  "name": "JSON-Circular",
+  "name": "json-circular",
   "version": "0.0.1",
   "description": "Simple library to allow for serialization and deserialization (JSON or otherwise) of JS objects containing circular references",
   "main": "json-circular.js",

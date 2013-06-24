@@ -6,7 +6,7 @@ Simple Node.js library to allow for serialization and deserialization (JSON or o
 
 A simple example:
 ```JavaScript
-var JsonCircular = require('JSON-Circular');
+var JsonCircular = require('json-circular');
 var demoObj = {"data": []};
 demoObj.parent = demoObj;
 demoObj.data.push(demoObj);
@@ -17,7 +17,7 @@ var demoObj2 = JsonCircular.parse(json);
 If JSON is not the desired object serialisation method, the library can be used to prepare objects for serialisation, and restore the object after deserialisation.
 Warning: the library will modify the original object in preparation for serialisation, though it can be restored by running the post-processor on the object when serializaztion is complete:
 ```JavaScript
-var JsonCircular = require('JSON-Circular');
+var JsonCircular = require('json-circular');
 var demoObj = {"data": []};
 demoObj.parent = demoObj;
 demoObj.data.push(demoObj);
